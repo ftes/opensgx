@@ -466,7 +466,7 @@ void cmd_mac(char *conf, char *key)
 
     launch_key_str = fmt_bytes(launch_key, DEVICE_KEY_LENGTH);
     mac_str = fmt_bytes(mac, MAC_SIZE);
-    printf("LAUNCH LEY        : %s\n", launch_key_str);
+    printf("LAUNCH KEY        : %s\n", launch_key_str);
     printf("MAC               : %s\n", mac_str);
 
     memcpy(token->mac, mac, 16);
