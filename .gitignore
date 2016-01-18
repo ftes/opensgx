@@ -16,6 +16,10 @@ test/passMan/app
 test/passMan/libenclave.so
 test/passMan/pmTest
 
+# opensgx
+*.sgx
+sign.key
+
 # qemu
 qemu/roms/seabios/config.mak
 qemu/roms/vgabios/config.mak
